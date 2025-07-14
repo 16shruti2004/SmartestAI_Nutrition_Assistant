@@ -58,10 +58,4 @@ NSTIW Kolkata (2024–2025) — Capstone AI Programming Project
 
 ## **Stay healthy, stay smart! 🥗💧**
 
----
-
-✅ **Copy this**, paste it directly into a file named **`README.md`** in your repo, and **replace** `https://github.com/yourusername/WellnessGenie` with your actual GitHub link.
-
-If you’d like, I can wrap this into an actual **downloadable `.md` file** too — just say **“Yes, give me the file!”** 🚀
-
 
