@@ -1,98 +1,67 @@
 # 🥗 WellnessGenie — Smart AI Nutrition Assistant
 
-**WellnessGenie** is an AI-powered nutrition assistant that helps users get **personalized meal plans**, detect food items using real-time image classification, and receive nutritional advice and healthy living tips — all through a simple, interactive **Streamlit web app**.
+**WellnessGenie** is an AI-powered nutrition assistant that gives you personalized meal plans, real-time food image detection, nutrition facts, and healthy living tips — all in a simple Streamlit web app.
 
 ---
 
-## 🚀 **Key Features**
+## 🚀 Features
 
-✅ **Personalized Meal Plans** — Tailored to age, gender, and health conditions (e.g., diabetes, anemia, obesity, cardiovascular diseases).  
-✅ **Vegetarian & Non-Vegetarian Options** — Choose your dietary preference.  
-✅ **Food Detection with AI** — Upload a food image or use your webcam — the app uses **MobileNetV2** to classify food items instantly.  
-✅ **Nutritional Insights** — Get calories, protein, fat, vitamins, and health ratings for detected food.  
-✅ **Voice Assistant (TTS)** — Powered by **gTTS**, the app can speak your meal plan and tips out loud.  
-✅ **Hydration & Exercise Tips** — Recommended water intake and exercises with helpful videos.  
-✅ **Beautiful & Simple UI** — Built with Streamlit, custom CSS, Seaborn, and Matplotlib for smooth charts and visuals.
-
----
-
-## 🛠️ **Tech Stack**
-
-- **Language:** Python 3.x  
-- **Framework:** Streamlit  
-- **Deep Learning:** TensorFlow Keras — MobileNetV2 (pre-trained on ImageNet)  
-- **Image Processing:** PIL (Pillow)  
-- **Text-to-Speech:** gTTS  
-- **Visualization:** Matplotlib, Seaborn  
-- **Data:** Custom Excel/CSV nutrition plan and food health dataset
+- ✅ Personalized meal plans by age, gender, health condition
+- ✅ Veg/Non-Veg options
+- ✅ AI food detection using MobileNetV2 (pre-trained)
+- ✅ Nutrition info: calories, protein, fat, vitamins, health rating
+- ✅ Voice assistant with gTTS for spoken tips
+- ✅ Hydration advice & recommended exercises
+- ✅ Clean charts with Matplotlib & Seaborn
 
 ---
 
-## 📸 **How It Works**
+## 🛠️ Tech Stack
 
-1. **Select your profile:** Gender, age, and health condition.  
-2. **Get your meal plan:** View personalized meals, calories, exercise recommendations, and water reminders.  
-3. **Use AI detection:** Upload or capture a food image — see real-time classification and nutrition details.  
-4. **Listen:** Enable the voice assistant to hear your plan and tips.  
-5. **Stay healthy!**
+**Python 3**, **Streamlit**, **TensorFlow Keras**, **PIL**, **gTTS**, **Seaborn**, **Matplotlib**, **pandas**, **numpy**
 
 ---
 
+## 📂 Project Files
+
+- `WellnessGenieApp.py` — Main Streamlit app  
+- `Nutrition_Test.ipynb` — Notebook for testing dataset  
+- `Main_Nutrition_plan.xlsx` — Meal plan data  
+- `Nutrion_check.csv` — Food health dataset
 
 ---
 
-## ⚙️ **How To Run**
+## ⚙️ How To Run
 
-1️⃣ Clone this repo:
-```bash
-git clone https://github.com/yourusername/WellnessGenie.git
-cd WellnessGenie
+1. Clone repo & install:
+   ```bash
+   git clone https://github.com/yourusername/WellnessGenie.git
+   cd WellnessGenie
+   pip install streamlit tensorflow pillow gTTS matplotlib seaborn pandas numpy speechrecognition
+   
+2. Run The App
+   streamlit run WellnessGenieApp.py
 
-2️⃣ Install requirements:
-pip install streamlit tensorflow pillow gTTS matplotlib seaborn pandas numpy speechrecognition
+## 📌 Future Plans
+Fine-tune model with local foods
 
-3️⃣ Make sure your Excel/CSV data files (Main_Nutrition_plan.xlsx & Nutrion_check.csv) are in the same folder as the app.
+Add speech recognition for voice input
 
-4️⃣ Run the app:
-streamlit run WellnessGenieApp.py
+Deploy on Streamlit Cloud or Heroku
 
-5️⃣ Open the URL Streamlit gives you (usually http://localhost:8501).
+Build mobile/PWA version
 
-🔬 Future Improvements
-Fine-tune MobileNetV2 with local/regional food datasets.
+## 👥 Team
+Manisa Mondal • Kanya Kumari Bikram • Dipanwita Mondal • Shruti Kumari Hela
 
-Add speech recognition for hands-free voice input.
+NSTIW Kolkata (2024–2025) — Capstone AI Programming Project
 
-Improve food detection for mixed dishes.
-
-Deploy on Streamlit Cloud or Heroku for public access.
-
-Develop a mobile version or PWA.
-
-🤝 Team
-Manisa Mondal
-
-Kanya Kumari Bikram
-
-Dipanwita Mondal
-
-Shruti Kumari Hela
-
-📄 License
-This project is for educational purposes under the NSTIW Kolkata AI Programming Certificate (2024–2025).
-Feel free to fork, improve, and share!
-
-## Happy healthy coding! 🥑💧
-
+## **Stay healthy, stay smart! 🥗💧**
 
 ---
 
-## ✅ **Next Step**
+✅ **Copy this**, paste it directly into a file named **`README.md`** in your repo, and **replace** `https://github.com/yourusername/WellnessGenie` with your actual GitHub link.
 
-1️⃣ Copy the above into a file named **`README.md`** in your project folder.  
-2️⃣ Replace `https://github.com/yourusername/WellnessGenie` with your actual GitHub repo link.  
-3️⃣ Push it to GitHub!
-
-If you want, I can **package this as a ready `.md` file** — just say **“Yes, export the README”** and I’ll generate it for you! 🚀✨
+If you’d like, I can wrap this into an actual **downloadable `.md` file** too — just say **“Yes, give me the file!”** 🚀
 
 
